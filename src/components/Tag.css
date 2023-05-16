@@ -1,0 +1,14 @@
+.tag {
+	display: block;
+	color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+	height: fit-content;
+	padding: 0.3em;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.tag:hover {
+	background-color: rgba(80, 80, 80, calc(255 * 0.1));
+	cursor: pointer;
+}

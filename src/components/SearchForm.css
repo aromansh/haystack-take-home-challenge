@@ -1,0 +1,31 @@
+.search-form {
+	display: flex;
+	flex-direction: column;
+	max-width: min(60%, 30em);
+}
+
+.search-form__title {
+	display: block;
+	color: var(--fg-color);
+	margin: 0.3em 0;
+	font-weight: bolder;
+	font-size: 1.2em;
+}
+
+.search-form__input-group {
+	display: flex;
+	justify-content: space-between;
+	gap: 1.2em;
+	height: 2.5em;
+}
+
+.search-form__input {
+	display: inline;
+	flex: 7.5;
+}
+
+.search-form__button {
+	display: inline;
+	flex: 1.5;
+	max-width: 5em;
+}

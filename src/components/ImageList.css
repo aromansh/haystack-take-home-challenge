@@ -1,0 +1,12 @@
+.image-list {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	margin: 1em 0;
+}
+
+.image-list__title {
+	margin: 0 0;
+	font-size: 1.2em;
+	color: var(--fg-color);
+}

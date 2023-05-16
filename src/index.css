@@ -1,0 +1,7 @@
+body {
+	--horizontal-padding: 4em;
+	--fg-color: #4a4a4a;
+
+	margin: 0;
+	font-family: sans-serif;
+}
